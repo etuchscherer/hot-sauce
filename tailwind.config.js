@@ -9,6 +9,12 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
     },
+    backgroundColors: {
+      white: '#FFF',
+      navigation: '#CCC',
+      primary: '#a6dfd6',
+      footer: '#DD0000',
+    },
     colors: {
       transparent: 'transparent',
 
@@ -147,7 +153,7 @@ module.exports = {
       56: '14rem',
       64: '16rem',
     },
-    backgroundColor: (theme) => theme('colors'),
+    backgroundColor: (theme) => theme('backgroundColors'),
     backgroundPosition: {
       bottom: 'bottom',
       center: 'center',

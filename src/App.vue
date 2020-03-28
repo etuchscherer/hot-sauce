@@ -1,10 +1,13 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <nav class="bg-navigation">
+      Eric Tuchscherer
+    </nav>
+    <nav class="bg-white">
+      Second Bar
+    </nav>
     <router-view/>
+    <footer class="bg-footer">This is the footer</footer>
   </div>
 </template>
 
